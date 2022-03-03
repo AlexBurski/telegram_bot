@@ -2,7 +2,7 @@ import telebot
 import datetime
 import requests
 
-
+token = 'e421f3e4a376b88ed26f6e29cb5a354a'
 
 @bot.message_handler(commands=['start'])
 def start(message):
