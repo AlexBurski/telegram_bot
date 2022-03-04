@@ -2,8 +2,6 @@ import telebot
 import datetime
 import requests
 
-token = 'e421f3e4a376b88ed26f6e29cb5a354a'
-bot = telebot.TeleBot('5122837370:AAEy1oI3_QQohtHd93lvcPdkw9wno-5lN2o')
 
 @bot.message_handler(commands=['start'])
 def start(message):
